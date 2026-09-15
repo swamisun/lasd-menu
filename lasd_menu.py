@@ -456,7 +456,7 @@ def render_markdown(months: dict[str, MonthMenu], wanted: list[str], updated: st
     return "\n".join(out).rstrip() + "\n"
 
 
-def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str) -> str:
+def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, today: date) -> str:
     esc = html.escape
     body = [
         "<h1>LASD vegetarian and vegan menu</h1>",
@@ -474,7 +474,7 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str) -
             body.append("<p><em>Not posted yet.</em></p>")
             continue
         for dt, day, veg in veg_days(mm):
-            cls = " today" if dt == date.today() else ""
+            cls = " today" if dt == today else ""
             heading = f"{dt.strftime('%a, %b')} {dt.day}"
             body.append(f'<section class="day{cls}"><h3>{heading}</h3><ul>')
             if day.note:
@@ -563,7 +563,7 @@ def render(today: date) -> None:
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / ".nojekyll").touch()
     MD_OUT.write_text(render_markdown(months, wanted, updated))
-    HTML_OUT.write_text(render_html(months, wanted, updated))
+    HTML_OUT.write_text(render_html(months, wanted, updated, today))
     ICS_OUT.write_text(render_ics(months, wanted, latest), newline="")
     log.info("rendered %s for %s", ", ".join(p.name for p in (MD_OUT, HTML_OUT, ICS_OUT)), ", ".join(wanted))
 
