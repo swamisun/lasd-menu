@@ -38,7 +38,9 @@ OUT_DIR = ROOT / "docs"            # served by GitHub Pages
 MD_OUT = OUT_DIR / "menu.md"
 ICS_OUT = OUT_DIR / "menu.ics"
 HTML_OUT = OUT_DIR / "index.html"
+ARCHIVE_OUT = OUT_DIR / "archive.html"
 PAGES_URL = "https://swamisun.github.io/lasd-menu/"
+REPO_URL = "https://github.com/swamisun/lasd-menu"
 
 LEVEL_ORDER = ["E", "M"]
 TAG = {
@@ -481,12 +483,58 @@ and "the same day at 7:00 AM". Same result.</li>
 </details>"""
 
 
-def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, today: date) -> str:
+PAGE_CSS = (
+    "body{font:16px/1.5 -apple-system,system-ui,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;color:#222}"
+    "h2{display:inline;font-size:1.4rem}h3{margin:1.2rem 0 .2rem}"
+    ".month{margin-top:1.5rem}.month>summary{cursor:pointer;border-bottom:1px solid #ddd;padding:.3rem 0}"
+    ".today{scroll-margin-top:1rem}"
+    "ul{margin:0;padding-left:1.2rem}li{margin:.15rem 0}.meta,.legend{color:#555;font-size:.9rem}"
+    ".today{background:#fff8dc;margin:0 -.6rem;padding:.1rem .6rem;border-radius:.4rem}"
+    ".subscribe{border:1px solid #ddd;border-radius:.4rem;padding:.4rem .8rem;margin:1rem 0;font-size:.95rem}"
+    ".subscribe summary{cursor:pointer;font-weight:600}.subscribe h4{margin:.8rem 0 .2rem}"
+    ".nav{font-size:.95rem}.nav a{margin-right:.2rem}.toc ul{list-style:none;padding:0}"
+    "footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.9rem;color:#555}"
+    "@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}.meta,.legend,footer{color:#aaa}"
+    ".month>summary,footer{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
+)
+PAGE_SCRIPT = (
+    "function openTarget(){const t=location.hash&&document.querySelector(location.hash);"
+    "if(!t)return;const d=t.closest('details');if(d)d.open=true;t.scrollIntoView();}"
+    "addEventListener('hashchange',openTarget);openTarget();"
+)
+
+
+def html_page(title: str, body: list[str]) -> str:
+    return (
+        '<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        f"<title>{html.escape(title)}</title><style>{PAGE_CSS}</style></head><body>\n"
+        + "\n".join(body)
+        + f"\n<script>{PAGE_SCRIPT}</script>\n</body></html>\n"
+    )
+
+
+def month_section(month: str, mm: MonthMenu | None, today: date, open_: bool) -> list[str]:
     esc = html.escape
+    out = [f'<details class="month" id="month-{month}"{" open" if open_ else ""}>'
+           f"<summary><h2>{month_title(month)}</h2></summary>"]
+    if mm is None:
+        return out + ["<p><em>Not posted yet.</em></p></details>"]
+    for dt, day, veg in veg_days(mm):
+        attrs = ' class="day today" id="today"' if dt == today else ' class="day"'
+        out.append(f"<section{attrs}><h3>{dt.strftime('%a, %b')} {dt.day}</h3><ul>")
+        if day.note:
+            out.append(f"<li><strong>{esc(day.note)}</strong></li>")
+        out += [f"<li>{esc(item_detail(it))}</li>" for it in veg]
+        out.append("</ul></section>")
+    return out + ["</details>"]
+
+
+def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, today: date) -> str:
     body = [
         "<h1>LASD vegetarian and vegan menu</h1>",
         f'<p class="meta">Source: <a href="{MENU_PAGE}">{MENU_PAGE}</a>. Menu data last updated {updated}.</p>',
-        f'<p class="legend">{esc(LEGEND)}</p>',
+        f'<p class="legend">{html.escape(LEGEND)}</p>',
         SUBSCRIBE_HTML,
     ]
     nav = [f'<a href="#month-{m}">{month_title(m)}</a>' for m in wanted]
@@ -494,43 +542,32 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
         nav.insert(0, '<a href="#today">Today</a>')
     body.append(f'<p class="nav">Jump to: {" · ".join(nav)}</p>')
     for month in wanted:
-        body.append(f'<details class="month" id="month-{month}" open>'
-                    f"<summary><h2>{month_title(month)}</h2></summary>")
-        mm = months.get(month)
-        if mm is None:
-            body.append("<p><em>Not posted yet.</em></p></details>")
-            continue
-        for dt, day, veg in veg_days(mm):
-            attrs = ' class="day today" id="today"' if dt == today else ' class="day"'
-            heading = f"{dt.strftime('%a, %b')} {dt.day}"
-            body.append(f"<section{attrs}><h3>{heading}</h3><ul>")
-            if day.note:
-                body.append(f"<li><strong>{esc(day.note)}</strong></li>")
-            body += [f"<li>{esc(item_detail(it))}</li>" for it in veg]
-            body.append("</ul></section>")
-        body.append("</details>")
-    return (
-        "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"utf-8\">"
-        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
-        "<title>LASD veg menu</title><style>"
-        "body{font:16px/1.5 -apple-system,system-ui,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;color:#222}"
-        "h2{display:inline;font-size:1.4rem}h3{margin:1.2rem 0 .2rem}"
-        ".month{margin-top:1.5rem}.month>summary{cursor:pointer;border-bottom:1px solid #ddd;padding:.3rem 0}"
-        ".today{scroll-margin-top:1rem}"
-        "ul{margin:0;padding-left:1.2rem}li{margin:.15rem 0}.meta,.legend{color:#555;font-size:.9rem}"
-        ".today{background:#fff8dc;margin:0 -.6rem;padding:.1rem .6rem;border-radius:.4rem}"
-        ".subscribe{border:1px solid #ddd;border-radius:.4rem;padding:.4rem .8rem;margin:1rem 0;font-size:.95rem}"
-        ".subscribe summary{cursor:pointer;font-weight:600}.subscribe h4{margin:.8rem 0 .2rem}"
-        "@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}.meta,.legend{color:#aaa}"
-        ".month>summary{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
-        ".nav{font-size:.95rem}.nav a{margin-right:.2rem}"
-        "</style></head><body>\n" + "\n".join(body) + "\n"
-        "<script>"
-        "function openTarget(){const t=location.hash&&document.querySelector(location.hash);"
-        "if(!t)return;const d=t.closest('details');if(d)d.open=true;t.scrollIntoView();}"
-        "addEventListener('hashchange',openTarget);openTarget();"
-        "</script>\n</body></html>\n"
+        body += month_section(month, months.get(month), today, open_=True)
+    body.append(
+        '<footer><a href="archive.html">Past months</a> · <a href="menu.md">markdown</a> · '
+        f'<a href="{REPO_URL}">source</a></footer>'
     )
+    return html_page("LASD veg menu", body)
+
+
+def render_archive(months: dict[str, MonthMenu], wanted: list[str], today: date) -> str:
+    """Every month not on the main page, newest first, collapsed, with a year/month table of contents."""
+    past = sorted((m for m in months if m not in wanted), reverse=True)
+    body = ["<h1>LASD veg menu archive</h1>",
+            '<p class="meta"><a href="index.html">Back to the current menu</a></p>']
+    if not past:
+        body.append("<p><em>Nothing archived yet. Months move here once they are no longer current.</em></p>")
+    else:
+        body.append('<nav class="toc"><ul>')
+        for year in sorted({m[:4] for m in past}, reverse=True):
+            links = " · ".join(f'<a href="#month-{m}">{date(int(m[:4]), int(m[5:]), 1).strftime("%B")}</a>'
+                               for m in past if m.startswith(year))
+            body.append(f"<li><strong>{year}:</strong> {links}</li>")
+        body.append("</ul></nav>")
+        for month in past:
+            body += month_section(month, months[month], today, open_=False)
+    body.append(f'<footer><a href="index.html">Current menu</a> · <a href="{REPO_URL}">source</a></footer>')
+    return html_page("LASD veg menu archive", body)
 
 
 REMINDERS = (timedelta(hours=-3), timedelta(hours=7))   # 9 PM the night before, 7 AM the day of
@@ -589,8 +626,9 @@ def render(today: date) -> None:
     (OUT_DIR / ".nojekyll").touch()
     MD_OUT.write_text(render_markdown(months, wanted, updated))
     HTML_OUT.write_text(render_html(months, wanted, updated, today))
+    ARCHIVE_OUT.write_text(render_archive(months, wanted, today))
     ICS_OUT.write_bytes(render_ics(months, wanted, latest))
-    log.info("rendered %s for %s", ", ".join(p.name for p in (MD_OUT, HTML_OUT, ICS_OUT)), ", ".join(wanted))
+    log.info("rendered %s for %s", ", ".join(p.name for p in (MD_OUT, HTML_OUT, ARCHIVE_OUT, ICS_OUT)), ", ".join(wanted))
 
 
 # ---------------------------------------------------------------- entry point
