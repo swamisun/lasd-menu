@@ -489,11 +489,13 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
         f'<p class="legend">{esc(LEGEND)}</p>',
         SUBSCRIBE_HTML,
     ]
-    has_today = any(today.isoformat() in mm.days for m, mm in months.items() if m in wanted)
-    if has_today:
-        body.append('<p class="meta"><a href="#today">Jump to today</a></p>')
+    nav = [f'<a href="#month-{m}">{month_title(m)}</a>' for m in wanted]
+    if any(today.isoformat() in mm.days for m, mm in months.items() if m in wanted):
+        nav.insert(0, '<a href="#today">Today</a>')
+    body.append(f'<p class="nav">Jump to: {" · ".join(nav)}</p>')
     for month in wanted:
-        body.append(f'<details class="month" open><summary><h2>{month_title(month)}</h2></summary>')
+        body.append(f'<details class="month" id="month-{month}" open>'
+                    f"<summary><h2>{month_title(month)}</h2></summary>")
         mm = months.get(month)
         if mm is None:
             body.append("<p><em>Not posted yet.</em></p></details>")
@@ -521,7 +523,13 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
         ".subscribe summary{cursor:pointer;font-weight:600}.subscribe h4{margin:.8rem 0 .2rem}"
         "@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}.meta,.legend{color:#aaa}"
         ".month>summary{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
-        "</style></head><body>\n" + "\n".join(body) + "\n</body></html>\n"
+        ".nav{font-size:.95rem}.nav a{margin-right:.2rem}"
+        "</style></head><body>\n" + "\n".join(body) + "\n"
+        "<script>"
+        "function openTarget(){const t=location.hash&&document.querySelector(location.hash);"
+        "if(!t)return;const d=t.closest('details');if(d)d.open=true;t.scrollIntoView();}"
+        "addEventListener('hashchange',openTarget);openTarget();"
+        "</script>\n</body></html>\n"
     )
 
 
