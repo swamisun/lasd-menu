@@ -45,12 +45,12 @@ The times are one line in `lasd_menu.py` (`REMINDERS`).
 | --- | --- |
 | 🧇 | breakfast |
 | 🍽️ | lunch |
-| 🍛 | vegetarian |
 | 🥗 | vegan (the district says vegan meals are gluten free, not certified) |
 | 🅴 | only on the elementary menu |
 | 🅼 | only on the junior high menu (Blach, Egan) |
 
-No 🅴 or 🅼 means the item is on both menus, which is most of them. Every meal also comes with
+Everything listed is vegetarian, so vegetarian items carry no mark; only vegan items get 🥗.
+Likewise no 🅴 or 🅼 means the item is on both menus, which is most of them. Every meal also comes with
 fruit, vegetables, and milk. The emoji live in one table in `lasd_menu.py` (`TAG`).
 
 ## How it works
