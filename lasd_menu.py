@@ -516,8 +516,8 @@ def html_page(title: str, body: list[str]) -> str:
 
 def month_section(month: str, mm: MonthMenu | None, today: date, open_: bool) -> list[str]:
     esc = html.escape
-    out = [f'<details class="month" id="month-{month}"{" open" if open_ else ""}>'
-           f"<summary><h2>{month_title(month)}</h2></summary>"]
+    opener = f'<details class="month" id="month-{month}"{" open" if open_ else ""}>'
+    out = [f"{opener}<summary><h2>{month_title(month)}</h2></summary>"]
     if mm is None:
         return out + ["<p><em>Not posted yet.</em></p></details>"]
     for dt, day, veg in veg_days(mm):
