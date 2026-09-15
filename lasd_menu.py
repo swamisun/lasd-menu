@@ -27,6 +27,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import pdfplumber
+from icalendar import Alarm, Calendar, Event, vDuration
 
 MENU_PAGE = "https://www.lasdschools.org/menus"
 TZ = ZoneInfo("America/Los_Angeles")
@@ -495,39 +496,22 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
     )
 
 
-def ics_escape(text: str) -> str:
-    return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+REMINDERS = (timedelta(hours=-3), timedelta(hours=7))   # 9 PM the night before, 7 AM the day of
 
 
-def ics_fold(line: str) -> str:
-    """Fold at 75 octets per RFC 5545, without splitting a UTF-8 character."""
-    raw = line.encode("utf-8")
-    if len(raw) <= 75:
-        return line
-    chunks, start, limit = [], 0, 75
-    while start < len(raw):
-        end = min(start + limit, len(raw))
-        while end < len(raw) and (raw[end] & 0xC0) == 0x80:
-            end -= 1
-        chunks.append(raw[start:end].decode("utf-8"))
-        start, limit = end, 74
-    return "\r\n ".join(chunks)
+def render_ics(months: dict[str, MonthMenu], wanted: list[str], stamp: datetime) -> bytes:
+    """One all-day event per meal per school day, each with the reminders above."""
+    cal = Calendar()
+    cal.add("prodid", "-//swamisun//lasd-menu//EN")
+    cal.add("version", "2.0")
+    cal.add("calscale", "GREGORIAN")
+    cal.add("method", "PUBLISH")
+    cal.add("x-wr-calname", "LASD veg menu")
+    cal.add("x-wr-timezone", "America/Los_Angeles")
+    cal.add("x-published-ttl", "P1D")
+    cal.add("refresh-interval", vDuration(timedelta(days=1)), parameters={"VALUE": "DURATION"})
+    dtstamp = stamp.astimezone(UTC)
 
-
-def render_ics(months: dict[str, MonthMenu], wanted: list[str], stamp: datetime) -> str:
-    """One all-day event per meal per school day."""
-    dtstamp = stamp.astimezone(UTC).strftime("%Y%m%dT%H%M%SZ")
-    lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//swamisun//lasd-menu//EN",
-        "CALSCALE:GREGORIAN",
-        "METHOD:PUBLISH",
-        "X-WR-CALNAME:LASD veg menu",
-        "X-WR-TIMEZONE:America/Los_Angeles",
-        "X-PUBLISHED-TTL:P1D",
-        "REFRESH-INTERVAL;VALUE=DURATION:P1D",
-    ]
     for month in wanted:
         mm = months.get(month)
         if mm is None:
@@ -537,21 +521,25 @@ def render_ics(months: dict[str, MonthMenu], wanted: list[str], stamp: datetime)
                 items = [it for it in veg if it.meal == meal]
                 if not items:
                     continue
-                lines += [
-                    "BEGIN:VEVENT",
-                    f"UID:{dt.isoformat()}-{meal.lower()}@lasd-menu.swamisun",
-                    f"DTSTAMP:{dtstamp}",
-                    f"DTSTART;VALUE=DATE:{dt.strftime('%Y%m%d')}",
-                    f"DTEND;VALUE=DATE:{(dt + timedelta(days=1)).strftime('%Y%m%d')}",
-                    f"SUMMARY:{ics_escape(' · '.join(item_label(it) for it in items))}",
-                    f"DESCRIPTION:{ics_escape(chr(10).join(item_detail(it) for it in items))}",
-                    f"CATEGORIES:{MEAL_NAME[meal]}",
-                    f"URL:{MENU_PAGE}",
-                    "TRANSP:TRANSPARENT",
-                    "END:VEVENT",
-                ]
-    lines.append("END:VCALENDAR")
-    return "\r\n".join(ics_fold(l) for l in lines) + "\r\n"
+                summary = " · ".join(item_label(it) for it in items)
+                ev = Event()
+                ev.add("uid", f"{dt.isoformat()}-{meal.lower()}@lasd-menu.swamisun")
+                ev.add("dtstamp", dtstamp)
+                ev.add("dtstart", dt)
+                ev.add("dtend", dt + timedelta(days=1))
+                ev.add("summary", summary)
+                ev.add("description", "\n".join(item_detail(it) for it in items))
+                ev.add("categories", [MEAL_NAME[meal]])
+                ev.add("url", MENU_PAGE)
+                ev.add("transp", "TRANSPARENT")
+                for trigger in REMINDERS:
+                    alarm = Alarm()
+                    alarm.add("action", "DISPLAY")
+                    alarm.add("trigger", trigger)
+                    alarm.add("description", f"{MEAL_NAME[meal]} {dt.strftime('%a %b')} {dt.day}: {summary}")
+                    ev.add_component(alarm)
+                cal.add_component(ev)
+    return cal.to_ical()
 
 
 def render(today: date) -> None:
@@ -564,7 +552,7 @@ def render(today: date) -> None:
     (OUT_DIR / ".nojekyll").touch()
     MD_OUT.write_text(render_markdown(months, wanted, updated))
     HTML_OUT.write_text(render_html(months, wanted, updated, today))
-    ICS_OUT.write_text(render_ics(months, wanted, latest), newline="")
+    ICS_OUT.write_bytes(render_ics(months, wanted, latest))
     log.info("rendered %s for %s", ", ".join(p.name for p in (MD_OUT, HTML_OUT, ICS_OUT)), ", ".join(wanted))
 
 

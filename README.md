@@ -25,6 +25,20 @@ https://swamisun.github.io/lasd-menu/menu.ics
 
 Google refreshes subscribed calendars on its own schedule, usually every 12 to 24 hours.
 
+### Reminders
+
+Every event carries two alarms: 9 PM the night before and 7 AM the day of. Whether you see them
+depends on the calendar app:
+
+- Apple Calendar strips alarms from subscriptions by default. Open the subscription's info panel
+  (right-click the calendar, Get Info) and uncheck "Remove: Alerts".
+- Google Calendar ignores alarms inside subscribed feeds. Instead, open the calendar's settings,
+  find "All-day event notifications", and add two: "the day before at 9:00 PM" and "the same day
+  at 7:00 AM". That gives the same result.
+- Outlook honours the embedded alarms.
+
+The times are one line in `lasd_menu.py` (`REMINDERS`).
+
 ## Legend
 
 | Emoji | Meaning |
@@ -68,3 +82,10 @@ Downloaded PDFs are cached in `cache/` (gitignored). Delete a cached PDF to forc
 whenever the script changes. It re-runs the pipeline and commits `data/` and `docs/` only if
 something changed, so the history shows exactly when the district revised a menu. GitHub Pages
 serves `docs/` from the `main` branch, so a commit is all it takes to publish.
+
+Runs are listed at <https://github.com/swamisun/lasd-menu/actions>. Pick "Update menu" in the left
+column to see its history, or use its "Run workflow" button to trigger an update by hand.
+
+If a run fails, the workflow opens an issue labelled `update-failed` (or comments on the open one),
+which GitHub emails to you like any other issue. GitHub also emails the workflow's actor about
+failed runs if "Actions" notifications are enabled at <https://github.com/settings/notifications>.

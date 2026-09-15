@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -33,3 +34,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Update menu $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Open or update an issue if the run failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create update-failed --color d73a4a --description "Weekly menu update failed" --force
+          existing=$(gh issue list --label update-failed --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "Failed again: $RUN_URL"
+          else
+            gh issue create --title "Menu update failed" --label update-failed \
+              --body "The menu update workflow failed. Usually the district changed the PDF layout or the menus page. Run log: $RUN_URL"
+          fi
