@@ -457,16 +457,37 @@ def render_markdown(months: dict[str, MonthMenu], wanted: list[str], updated: st
     return "\n".join(out).rstrip() + "\n"
 
 
+ICS_URL = PAGES_URL + "menu.ics"
+SUBSCRIBE_HTML = f"""<details class="subscribe"><summary>Subscribe to the calendar</summary>
+<p>Calendar link: <code>{ICS_URL}</code> (<a href="{ICS_URL.replace('https://', 'webcal://')}">open in
+Apple Calendar</a> · <a href="menu.ics">download</a> · <a href="menu.md">markdown</a>)</p>
+<ul>
+<li><strong>Google Calendar:</strong> Other calendars, <code>+</code>, From URL, paste the link.
+Google refreshes subscribed calendars on its own schedule, usually every 12 to 24 hours.</li>
+<li><strong>Apple Calendar:</strong> File, New Calendar Subscription, paste the link (or use the
+"open in Apple Calendar" link above).</li>
+</ul>
+<h4>Reminders</h4>
+<p>Every event carries two alarms: 9 PM the night before and 7 AM the day of. Whether you see them
+depends on the calendar app:</p>
+<ul>
+<li><strong>Apple Calendar</strong> strips alarms from subscriptions by default. Right-click the
+calendar, Get Info, and uncheck "Remove: Alerts".</li>
+<li><strong>Google Calendar</strong> ignores alarms inside subscribed feeds. Instead, open the
+calendar's settings, find "All-day event notifications", and add two: "the day before at 9:00 PM"
+and "the same day at 7:00 AM". Same result.</li>
+<li><strong>Outlook</strong> uses the embedded alarms as is.</li>
+</ul>
+</details>"""
+
+
 def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, today: date) -> str:
     esc = html.escape
     body = [
         "<h1>LASD vegetarian and vegan menu</h1>",
         f'<p class="meta">Source: <a href="{MENU_PAGE}">{MENU_PAGE}</a>. Menu data last updated {updated}.</p>',
         f'<p class="legend">{esc(LEGEND)}</p>',
-        (
-            f'<p class="meta">Calendar subscription: <code>{PAGES_URL}menu.ics</code> '
-            '(<a href="menu.ics">download</a>, <a href="menu.md">markdown</a>)</p>'
-        ),
+        SUBSCRIBE_HTML,
     ]
     for month in wanted:
         body.append(f"<h2>{month_title(month)}</h2>")
@@ -490,8 +511,10 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
         "h2{margin-top:2rem;border-bottom:1px solid #ddd}h3{margin:1.2rem 0 .2rem}"
         "ul{margin:0;padding-left:1.2rem}li{margin:.15rem 0}.meta,.legend{color:#555;font-size:.9rem}"
         ".today{background:#fff8dc;margin:0 -.6rem;padding:.1rem .6rem;border-radius:.4rem}"
+        ".subscribe{border:1px solid #ddd;border-radius:.4rem;padding:.4rem .8rem;margin:1rem 0;font-size:.95rem}"
+        ".subscribe summary{cursor:pointer;font-weight:600}.subscribe h4{margin:.8rem 0 .2rem}"
         "@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}.meta,.legend{color:#aaa}"
-        "h2{border-color:#333}.today{background:#333300}a{color:#8cf}}"
+        "h2{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
         "</style></head><body>\n" + "\n".join(body) + "\n</body></html>\n"
     )
 
