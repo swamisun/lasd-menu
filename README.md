@@ -44,8 +44,8 @@ The times are one line in `lasd_menu.py` (`REMINDERS`).
 | Emoji | Meaning |
 | --- | --- |
 | 🧇 | breakfast |
-| 🍴 | lunch |
-| 🍕 | vegetarian |
+| 🍽️ | lunch |
+| 🍛 | vegetarian |
 | 🥗 | vegan (the district says vegan meals are gluten free, not certified) |
 | 🅴 | only on the elementary menu |
 | 🅼 | only on the junior high menu (Blach, Egan) |

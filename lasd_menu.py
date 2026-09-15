@@ -44,9 +44,9 @@ REPO_URL = "https://github.com/swamisun/lasd-menu"
 
 LEVEL_ORDER = ["E", "M"]
 TAG = {
-    "BF": "🧇", "L": "🍴",            # meal
+    "BF": "🧇", "L": "🍽️",            # meal
     "E": "🅴", "M": "🅼",             # elementary, junior high; omitted when on both
-    "Vegetarian": "🍕", "Vegan": "🥗", "Vegan/GF": "🥗",
+    "Vegetarian": "🍛", "Vegan": "🥗", "Vegan/GF": "🥗",
 }
 MEAL_NAME = {"BF": "Breakfast", "L": "Lunch"}
 MONTHS = {
@@ -399,7 +399,7 @@ def wanted_months(today: date) -> list[str]:
 # ---------------------------------------------------------------- rendering
 
 LEGEND = (
-    "🧇 breakfast, 🍴 lunch, 🍕 vegetarian, 🥗 vegan. "
+    "🧇 breakfast, 🍽️ lunch, 🍛 vegetarian, 🥗 vegan. "
     "🅴 or 🅼 marks an item that is only on the elementary or only on the junior high "
     "(Blach, Egan) menu; no mark means it is on both. Allergens follow the colon. "
     "Every meal comes with fruit, vegetables, and 1% or non-fat milk. Menus are subject to change."
@@ -407,7 +407,7 @@ LEGEND = (
 
 
 def item_label(it: Item) -> str:
-    """'🍴 Sbj Sammie 🥗🅴' : meal emoji, name, diet emoji, level emoji when not on both menus."""
+    """'🍽️ Sbj Sammie 🥗🅴' : meal emoji, name, diet emoji, level emoji when not on both menus."""
     levels = "" if set(it.levels) >= {"E", "M"} else "".join(TAG[l] for l in it.levels)
     return f"{TAG[it.meal]} {it.name} {TAG.get(it.diet, '')}{levels}"
 
