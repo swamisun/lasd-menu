@@ -1,0 +1,562 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//swamisun//lasd-menu//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LASD veg menu
+X-WR-TIMEZONE:America/Los_Angeles
+X-PUBLISHED-TTL:P1D
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VEVENT
+UID:2026-09-01-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🧇 Pancake Bites w/ Syrup 🍕 · 🧇 Bagel w/ Cream Cheese 🍕
+  · 🧇 Cinnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 Pancake Bites w/ Syrup 🍕: Wheat\, Soy\, Egg\, Milk\n
+ 🧇 Bagel w/ Cream Cheese 🍕: Wheat\, Soy\, Milk\, Sesame\n🧇 Cinnamo
+ n Toasters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🍴 Pasta w/ Marinara & Mozzarella 🍕 · 🍴 Hummus Rainbow Wra
+ p 🍕 · 🍴 Vegan Fried Rice 🥗
+DESCRIPTION:🍴 Pasta w/ Marinara & Mozzarella 🍕: Wheat\, Egg\, Milk\, 
+ Tomato\n🍴 Hummus Rainbow Wrap 🍕: Wheat\n🍴 Vegan Fried Rice 🥗: 
+ Soy\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-02-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🧇 String Cheese w/ Mini Chocolate Chip Muffin 🍕
+DESCRIPTION:🧇 String Cheese w/ Mini Chocolate Chip Muffin 🍕: Milk\, W
+ heat\, Soy\, Egg
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-02-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:🍴 Pasta w/ Olive Oil & Parmensan 🍕 · 🍴 Sbj Sammie 🥗
+ 🅴 · 🍴 Vegan Bean Burrito Bowl 🥗
+DESCRIPTION:🍴 Pasta w/ Olive Oil & Parmensan 🍕: Wheat\, Egg\, Milk\n
+ 🍴 Sbj Sammie 🥗🅴: Wheat\, Soy\, Sesame\n🍴 Vegan Bean Burrito Bo
+ wl 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:🧇 Cherry Frudel 🍕 · 🧇 Strawberry Yogurt w/ Grahams 🍕 
+ · 🧇 Honey Scooters Cereal 🍕
+DESCRIPTION:🧇 Cherry Frudel 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Strawbe
+ rry Yogurt w/ Grahams 🍕: Wheat\n🧇 Honey Scooters Cereal 🍕: Wheat\
+ , Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:🍴 Mac & Cheese 🍕 · 🍴 Vegan Chickpea Tikka Masala 🥗 · 
+ 🍴 Confetti Bean & Rice Salad 🍕🅼
+DESCRIPTION:🍴 Mac & Cheese 🍕: Wheat\, Milk\n🍴 Vegan Chickpea Tikka
+  Masala 🥗: Tomato\n🍴 Confetti Bean & Rice Salad 🍕🅼: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-04-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🧇 Pan de Elote 🍕 · 🧇 Honey Bunches of Oats Cereal 🍕
+DESCRIPTION:🧇 Pan de Elote 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Honey Bu
+ nches of Oats Cereal 🍕: Wheat
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-04-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🍴 Bagel Kit 🍕 · 🍴 SBJ Sammie 🥗
+DESCRIPTION:🍴 Bagel Kit 🍕: Wheat\, Soy\, Milk\, Sesame\n🍴 SBJ Samm
+ ie 🥗: Wheat\, Soy\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🧇 Cinnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 Cinnamon Toasters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🍴 Cheesy Rippers w/ Marinara Sauce 🍕 · 🍴 Vegan Spanish Be
+ ans w/ Cilantro Rice 🥗 · 🍴 Greek Chickpea Pasta Salad 🍕🅼
+DESCRIPTION:🍴 Cheesy Rippers w/ Marinara Sauce 🍕: Wheat\, Soy\, Milk\
+ , Tomato\n🍴 Vegan Spanish Beans w/ Cilantro Rice 🥗: Tomato\n🍴 Gre
+ ek Chickpea Pasta Salad 🍕🅼: Wheat\, Egg\, Milk
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:🧇 Peach Yogurt w/ Mini Blueberry Muffin 🍕 · 🧇 Honey Scoot
+ ers Cereal 🍕
+DESCRIPTION:🧇 Peach Yogurt w/ Mini Blueberry Muffin 🍕: Wheat\, Soy\, 
+ Egg\, Milk\n🧇 Honey Scooters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:🍴 Bagel Kit 🍕🅴 · 🍴 Vegan Red Beans & Rice 🥗
+DESCRIPTION:🍴 Bagel Kit 🍕🅴: Wheat\, Soy\, Milk\, Sesame\n🍴 Vega
+ n Red Beans & Rice 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:🧇 French Toast Sticks 🍕 · 🧇 Bagel w/ Cream Cheese 🍕 ·
+  🧇 Honey Bunches of Oats Cereal 🍕
+DESCRIPTION:🧇 French Toast Sticks 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 B
+ agel w/ Cream Cheese 🍕: Wheat\, Soy\, Milk\, Sesame\n🧇 Honey Bunches
+  of Oats Cereal 🍕: Wheat
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:🍴 Bean & Cheese Burrito 🍕🅴 · 🍴 Vegan 3 Bean Chili w/ T
+ ortilla Chips 🥗 · 🍴 Veggie Sushi Bowl 🍕🅼
+DESCRIPTION:🍴 Bean & Cheese Burrito 🍕🅴: Milk\, Wheat\, Soy\n🍴 V
+ egan 3 Bean Chili w/ Tortilla Chips 🥗: Tomato\n🍴 Veggie Sushi Bowl 
+ 🍕🅼: Wheat\, Soy\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🧇 Cinnamon Crumble 🍕 · 🧇 Cinnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 Cinnamon Crumble 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Cinn
+ amon Toasters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🍴 Cheese Pizza 🍕 · 🍴 Veggie Supreme Pizza 🍕 · 🍴 Ve
+ getarian Picnic Box 🍕🅴 · 🍴 Vegan Fried Rice 🥗
+DESCRIPTION:🍴 Cheese Pizza 🍕: Wheat\, Soy\, Milk\, Tomato\n🍴 Veggi
+ e Supreme Pizza 🍕: Wheat\, Tomato\, Milk\, Soy\n🍴 Vegetarian Picnic 
+ Box 🍕🅴: Wheat\, Milk\n🍴 Vegan Fried Rice 🥗: Soy\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:🧇 Hard Boiled Egg w/ Mini Blueberry Muffin 🍕
+DESCRIPTION:🧇 Hard Boiled Egg w/ Mini Blueberry Muffin 🍕: Wheat\, Soy
+ \, Egg\, Milk\, Sesame
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:🍴 Veggie Chow Mein 🍕🅴 · 🍴 Southwest Veggie Taco Salad 
+ w/ Cilantro Lime Rice 🍕 · 🍴 Vegan Bean Burrito Bowl 🥗 · 🍴 Pa
+ sta w/ Olive Oil & Parmesan 🍕🅼
+DESCRIPTION:🍴 Veggie Chow Mein 🍕🅴: Wheat\, Soy\, Egg\, Sesame\n
+ 🍴 Southwest Veggie Taco Salad w/ Cilantro Lime Rice 🍕: Milk\, Soy\, 
+ Tomato\, Egg\n🍴 Vegan Bean Burrito Bowl 🥗: Tomato\n🍴 Pasta w/ Oli
+ ve Oil & Parmesan 🍕🅼: Wheat\, Egg\, Milk
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🧇 Cinnamon Raisin Bagel w/ Cream Cheese 🍕 · 🧇 Honey Scoot
+ ers Cereal 🍕
+DESCRIPTION:🧇 Cinnamon Raisin Bagel w/ Cream Cheese 🍕: Wheat\, Soy\, 
+ Milk\, Sesame\n🧇 Honey Scooters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🍴 Pasta w/ Marinara & Mozzarella Cheese 🍕 · 🍴 Vegan Chick
+ pea Tikka Masala 🥗
+DESCRIPTION:🍴 Pasta w/ Marinara & Mozzarella Cheese 🍕: Wheat\, Egg\, 
+ Milk\, Tomato\n🍴 Vegan Chickpea Tikka Masala 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🧇 Pancake w/ Syrup 🍕 · 🧇 String Cheese w/ Mini Chocolate 
+ Chip Muffin 🍕 · 🧇 Honey Bunches of Oats Cereal 🍕
+DESCRIPTION:🧇 Pancake w/ Syrup 🍕: Wheat\, Milk\, Egg\, Soy\n🧇 Stri
+ ng Cheese w/ Mini Chocolate Chip Muffin 🍕: Milk\, Wheat\, Soy\, Egg\n
+ 🧇 Honey Bunches of Oats Cereal 🍕: Wheat
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🍴 Pasta Primavera 🍕 · 🍴 MYO Vegan Tacos 🥗 · 🍴 Five
+  Layer Dip w/ Tortilla Chips 🍕🅼
+DESCRIPTION:🍴 Pasta Primavera 🍕: Wheat\, Soy\, Egg\, Milk\n🍴 MYO V
+ egan Tacos 🥗: Tomato\n🍴 Five Layer Dip w/ Tortilla Chips 🍕🅼: M
+ ilk\, Soy
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:🧇 Southwest Breakfast Burrito 🍕 · 🧇 Blueberry Muffin 🍕
+  · 🧇 Cinnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 Southwest Breakfast Burrito 🍕: Egg\, Milk\, Wheat\, Soy
+ \n🧇 Blueberry Muffin 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Cinnamon Toas
+ ters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:🍴 Cheese Wrapadilla 🍕🅴 · 🍴 Vegan Fried Rice 🥗 · 
+ 🍴 Pesto Caprece Salad 🍕🅼
+DESCRIPTION:🍴 Cheese Wrapadilla 🍕🅴: Wheat\, Milk\n🍴 Vegan Fried
+  Rice 🥗: Soy\, Sesame\n🍴 Pesto Caprece Salad 🍕🅼: Wheat\, Egg\,
+  Milk\, Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:🧇 Scrambled Eggs w/ Biscuit 🍕 · 🧇 Sunbutter & Jelly Sandw
+ ich 🍕
+DESCRIPTION:🧇 Scrambled Eggs w/ Biscuit 🍕: Wheat\, Soy\, Egg\, Milk\,
+  Sesame\n🧇 Sunbutter & Jelly Sandwich 🍕: Wheat\, Soy\, Sesame
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-18-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:🍴 Cheese Pizza 🍕 · 🍴 Vegan Bean Burrito Bowl 🥗
+DESCRIPTION:🍴 Cheese Pizza 🍕: Wheat\, Soy\, Milk\, Tomato\n🍴 Vegan
+  Bean Burrito Bowl 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🧇 Melted Cheese Bagel 🍕 · 🧇 Peach Yogurt w/ Mini Blueberr
+ y Muffin 🍕 · 🧇 Honey Scooters Cereal 🍕
+DESCRIPTION:🧇 Melted Cheese Bagel 🍕: Wheat\, Soy\, Milk\, Sesame\n
+ 🧇 Peach Yogurt w/ Mini Blueberry Muffin 🍕: Wheat\, Soy\, Egg\, Milk\
+ , Sesame\n🧇 Honey Scooters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🍴 Egg Salad Sandwich 🍕🅴 · 🍴 Vegan Chickpea Tikka Masal
+ a 🥗 · 🍴 Curry Fried Rice 🍕🅼
+DESCRIPTION:🍴 Egg Salad Sandwich 🍕🅴: Wheat\, Soy\, Egg\, Sesame\n
+ 🍴 Vegan Chickpea Tikka Masala 🥗: Tomato\n🍴 Curry Fried Rice 🍕
+ 🅼: Wheat\, Soy\, Egg\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:🧇 Bagel w/ Cream Cheese 🍕 · 🧇 Honey Bunches of Oats 🍕
+DESCRIPTION:🧇 Bagel w/ Cream Cheese 🍕: Wheat\, Soy\, Milk\, Sesame\n
+ 🧇 Honey Bunches of Oats 🍕: Wheat
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:🍴 Bean & Cheese Burrito 🍕 · 🍴 MYO Vegan Tacos 🥗
+DESCRIPTION:🍴 Bean & Cheese Burrito 🍕: Milk\, Wheat\, Soy\n🍴 MYO V
+ egan Tacos 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:🧇 French Toast Sticks 🍕 · 🧇 Banana Muffin 🍕 · 🧇 Ci
+ nnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 French Toast Sticks 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 B
+ anana Muffin 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Cinnamon Toasters Cereal
+  🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:🍴 Pasta X Plosion! 🍕 · 🍴 Vegan Pinto Pozole w/ Tortilla C
+ hips 🥗
+DESCRIPTION:🍴 Pasta X Plosion! 🍕: Wheat\, Egg\, Milk\, Tomato\n🍴 V
+ egan Pinto Pozole w/ Tortilla Chips 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:🧇 Egg & Cheese Burrito 🍕 · 🧇 String Cheese w/ Mini Chocol
+ ate Chip Muffin 🍕
+DESCRIPTION:🧇 Egg & Cheese Burrito 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 
+ String Cheese w/ Mini Chocolate Chip Muffin 🍕: Milk\, Wheat\, Soy\, Egg
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:🍴 Black Bean & Veggie Burrito 🍕 · 🍴 Vegan Spanish Beans w
+ / Cilantro Lime Rice 🥗
+DESCRIPTION:🍴 Black Bean & Veggie Burrito 🍕: Milk\, Wheat\, Tomato\n
+ 🍴 Vegan Spanish Beans w/ Cilantro Lime Rice 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:🧇 Chocolate Concha 🍕 · 🧇 Honey Scooters Cereal 🍕
+DESCRIPTION:🧇 Chocolate Concha 🍕: Wheat\, Soy\, Egg\, Milk\n🧇 Hone
+ y Scooters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-25-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:🍴 Cheese Pizza 🍕 · 🍴 Vegan Red Beans & Rice 🥗
+DESCRIPTION:🍴 Cheese Pizza 🍕: Wheat\, Soy\, Milk\, Tomato\n🍴 Vegan
+  Red Beans & Rice 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:🧇 Hard Boiled Egg w/ Mini Blueberry Muffin 🍕 · 🧇 Honey Bu
+ nches of Oats 🍕
+DESCRIPTION:🧇 Hard Boiled Egg w/ Mini Blueberry Muffin 🍕: Wheat\, Soy
+ \, Egg\, Milk\, Sesame\n🧇 Honey Bunches of Oats 🍕: Wheat
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:🍴 Veggieburger 🍕 · 🍴 Vegan 3 Bean Chili w/ Tortilla Chips
+  🥗 · 🍴 Edamame & Rice Salad 🍕🅼
+DESCRIPTION:🍴 Veggieburger 🍕: Wheat\, Milk\, Soy\n🍴 Vegan 3 Bean C
+ hili w/ Tortilla Chips 🥗: Tomato\n🍴 Edamame & Rice Salad 🍕🅼: T
+ omato\, Soy
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:🧇 Pancake Bites w/ Syrup 🍕 · 🧇 Bagel w/ Cream Cheese 🍕
+  · 🧇 Cinnamon Toasters Cereal 🍕
+DESCRIPTION:🧇 Pancake Bites w/ Syrup 🍕: Wheat\, Soy\, Egg\, Milk\n
+ 🧇 Bagel w/ Cream Cheese 🍕: Wheat\, Soy\, Milk\, Sesame\n🧇 Cinnamo
+ n Toasters Cereal 🍕: Wheat\, Soy
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:🍴 Pasta w/ Marinara & Mozzarella Cheese 🍕 · 🍴 Vegan Fried
+  Rice 🥗
+DESCRIPTION:🍴 Pasta w/ Marinara & Mozzarella Cheese 🍕: Wheat\, Egg\, 
+ Milk\, Tomato\n🍴 Vegan Fried Rice 🥗: Soy\, Sesame
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-bf@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🧇 String Cheese w/ Mini Chocolate Chip Muffin 🍕
+DESCRIPTION:🧇 String Cheese w/ Mini Chocolate Chip Muffin 🍕: Milk\, W
+ heat\, Soy\, Egg
+CATEGORIES:Breakfast
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-l@lasd-menu.swamisun
+DTSTAMP:20260915T180035Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🍴 Pasta w/ Olive Oil & Parmesan 🍕 · 🍴 Vegan Bean Burrito 
+ Bowl 🥗
+DESCRIPTION:🍴 Pasta w/ Olive Oil & Parmesan 🍕: Wheat\, Egg\, Milk\n
+ 🍴 Vegan Bean Burrito Bowl 🥗: Tomato
+CATEGORIES:Lunch
+URL:https://www.lasdschools.org/menus
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+name: Update menu
+
+on:
+  schedule:
+    - cron: "0 15 * * 1"   # Mondays 15:00 UTC (8am PDT / 7am PST)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["lasd_menu.py", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Fetch, parse, and render
+        run: uv run lasd_menu.py --verbose
+
+      - name: Commit if anything changed
+        run: |
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update menu $(date -u +%Y-%m-%d)"
+          git push
