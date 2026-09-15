@@ -489,32 +489,38 @@ def render_html(months: dict[str, MonthMenu], wanted: list[str], updated: str, t
         f'<p class="legend">{esc(LEGEND)}</p>',
         SUBSCRIBE_HTML,
     ]
+    has_today = any(today.isoformat() in mm.days for m, mm in months.items() if m in wanted)
+    if has_today:
+        body.append('<p class="meta"><a href="#today">Jump to today</a></p>')
     for month in wanted:
-        body.append(f"<h2>{month_title(month)}</h2>")
+        body.append(f'<details class="month" open><summary><h2>{month_title(month)}</h2></summary>')
         mm = months.get(month)
         if mm is None:
-            body.append("<p><em>Not posted yet.</em></p>")
+            body.append("<p><em>Not posted yet.</em></p></details>")
             continue
         for dt, day, veg in veg_days(mm):
-            cls = " today" if dt == today else ""
+            attrs = ' class="day today" id="today"' if dt == today else ' class="day"'
             heading = f"{dt.strftime('%a, %b')} {dt.day}"
-            body.append(f'<section class="day{cls}"><h3>{heading}</h3><ul>')
+            body.append(f"<section{attrs}><h3>{heading}</h3><ul>")
             if day.note:
                 body.append(f"<li><strong>{esc(day.note)}</strong></li>")
             body += [f"<li>{esc(item_detail(it))}</li>" for it in veg]
             body.append("</ul></section>")
+        body.append("</details>")
     return (
         "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"utf-8\">"
         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
         "<title>LASD veg menu</title><style>"
         "body{font:16px/1.5 -apple-system,system-ui,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;color:#222}"
-        "h2{margin-top:2rem;border-bottom:1px solid #ddd}h3{margin:1.2rem 0 .2rem}"
+        "h2{display:inline;font-size:1.4rem}h3{margin:1.2rem 0 .2rem}"
+        ".month{margin-top:1.5rem}.month>summary{cursor:pointer;border-bottom:1px solid #ddd;padding:.3rem 0}"
+        ".today{scroll-margin-top:1rem}"
         "ul{margin:0;padding-left:1.2rem}li{margin:.15rem 0}.meta,.legend{color:#555;font-size:.9rem}"
         ".today{background:#fff8dc;margin:0 -.6rem;padding:.1rem .6rem;border-radius:.4rem}"
         ".subscribe{border:1px solid #ddd;border-radius:.4rem;padding:.4rem .8rem;margin:1rem 0;font-size:.95rem}"
         ".subscribe summary{cursor:pointer;font-weight:600}.subscribe h4{margin:.8rem 0 .2rem}"
         "@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}.meta,.legend{color:#aaa}"
-        "h2{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
+        ".month>summary{border-color:#333}.today{background:#333300}a{color:#8cf}.subscribe{border-color:#333}}"
         "</style></head><body>\n" + "\n".join(body) + "\n</body></html>\n"
     )
 
