@@ -1,181 +1,174 @@
 # LASD vegetarian and vegan menu
 
-Source: [https://www.lasdschools.org/menus](https://www.lasdschools.org/menus). Menu data last updated 2026-09-15.
+Source: [https://www.lasdschools.org/menus](https://www.lasdschools.org/menus). Menu data last updated 2026-10-05.
 
 Legend: 🧇 breakfast, 🍽️ lunch. Everything listed is vegetarian; 🥗 marks vegan items. 🅴 or 🅼 marks an item that is only on the elementary or only on the junior high (Blach, Egan) menu; no mark means it is on both. Allergens follow the colon. Every meal comes with fruit, vegetables, and 1% or non-fat milk. Menus are subject to change.
 
 Calendar subscription: `https://swamisun.github.io/lasd-menu/menu.ics`
 
-## September 2026
+## October 2026
 
-### Tue, Sep 1
-
-- 🧇 Pancake Bites w/ Syrup: Wheat, Soy, Egg, Milk
-- 🧇 Bagel w/ Cream Cheese: Wheat, Soy, Milk, Sesame
-- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Pasta w/ Marinara & Mozzarella: Wheat, Egg, Milk, Tomato
-- 🍽️ Hummus Rainbow Wrap: Wheat
-- 🍽️ Vegan Fried Rice 🥗: Soy, Sesame
-
-### Wed, Sep 2
-
-- 🧇 String Cheese w/ Mini Chocolate Chip Muffin: Milk, Wheat, Soy, Egg
-- 🍽️ Pasta w/ Olive Oil & Parmensan: Wheat, Egg, Milk
-- 🍽️ Sbj Sammie 🥗🅴: Wheat, Soy, Sesame
-- 🍽️ Vegan Bean Burrito Bowl 🥗: Tomato
-
-### Thu, Sep 3
+### Thu, Oct 1
 
 - 🧇 Cherry Frudel: Wheat, Soy, Egg, Milk
 - 🧇 Strawberry Yogurt w/ Grahams: Wheat
-- 🧇 Honey Scooters Cereal: Wheat, Soy
+- 🧇 Honey Scooters: Wheat, Soy
 - 🍽️ Mac & Cheese: Wheat, Milk
 - 🍽️ Vegan Chickpea Tikka Masala 🥗: Tomato
-- 🍽️ Confetti Bean & Rice Salad 🅼: Tomato
 
-### Fri, Sep 4
+### Fri, Oct 2
 
 - 🧇 Pan de Elote: Wheat, Soy, Egg, Milk
-- 🧇 Honey Bunches of Oats Cereal: Wheat
-- 🍽️ Bagel Kit: Wheat, Soy, Milk, Sesame
-- 🍽️ SBJ Sammie 🥗: Wheat, Soy, Sesame
-
-### Mon, Sep 7
-
-- Holiday!
-
-### Tue, Sep 8
-
 - 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Cheesy Rippers w/ Marinara Sauce: Wheat, Soy, Milk, Tomato
-- 🍽️ Vegan Spanish Beans w/ Cilantro Rice 🥗: Tomato
+- 🍽️ Cheese Pizza: Wheat, Soy, Milk, Tomato
+- 🍽️ MYO Vegan Tacos 🥗: Tomato
+
+### Mon, Oct 5
+
+- 🧇 Melted Cheese Bagel: Wheat, Soy, Milk, Sesame
+- 🧇 Glazed Donut Holes: Wheat, Soy, Egg, Milk
+- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
+- 🍽️ Vegan Fried Rice 🥗🅴: Soy, Sesame
+- 🍽️ Vegan Pinto Pozole w/ Tortilla Chips 🥗: Tomato
+- 🍽️ Vegetarian Picnic Box 🅼: Wheat, Milk
+
+### Tue, Oct 6
+
+- 🧇 Banana Chocolate Chunk: Wheat, Soy, Egg, Milk
+- 🍽️ Pasta Primavera: Wheat, Soy, Egg, Milk
+- 🍽️ Vegan Spanish Beans w/ Cilantro Lime Rice 🥗: Tomato
 - 🍽️ Greek Chickpea Pasta Salad 🅼: Wheat, Egg, Milk
 
-### Wed, Sep 9
+### Wed, Oct 7
 
-- 🧇 Peach Yogurt w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk
-- 🧇 Honey Scooters Cereal: Wheat, Soy
 - 🍽️ Bagel Kit 🅴: Wheat, Soy, Milk, Sesame
 - 🍽️ Vegan Red Beans & Rice 🥗: Tomato
 
-### Thu, Sep 10
+### Thu, Oct 8
 
-- 🧇 French Toast Sticks: Wheat, Soy, Egg, Milk
 - 🧇 Bagel w/ Cream Cheese: Wheat, Soy, Milk, Sesame
-- 🧇 Honey Bunches of Oats Cereal: Wheat
-- 🍽️ Bean & Cheese Burrito 🅴: Milk, Wheat, Soy
-- 🍽️ Vegan 3 Bean Chili w/ Tortilla Chips 🥗: Tomato
-- 🍽️ Veggie Sushi Bowl 🅼: Wheat, Soy, Sesame
-
-### Fri, Sep 11
-
-- 🧇 Cinnamon Crumble: Wheat, Soy, Egg, Milk
 - 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Cheese Pizza: Wheat, Soy, Milk, Tomato
-- 🍽️ Veggie Supreme Pizza: Wheat, Tomato, Milk, Soy
-- 🍽️ Vegetarian Picnic Box 🅴: Wheat, Milk
-- 🍽️ Vegan Fried Rice 🥗: Soy, Sesame
+- 🍽️ Bagel Kit: Wheat, Soy, Milk, Sesame
+- 🍽️ SBJ Sammie 🥗: Wheat, Soy, Sesame
 
-### Mon, Sep 14
+### Fri, Oct 9
 
-- 🧇 Hard Boiled Egg w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk, Sesame
+- No school!
+
+### Mon, Oct 12
+
+- 🧇 Blueberry Muffin: Wheat, Soy, Egg, Milk
 - 🍽️ Veggie Chow Mein 🅴: Wheat, Soy, Egg, Sesame
 - 🍽️ Southwest Veggie Taco Salad w/ Cilantro Lime Rice: Milk, Soy, Tomato, Egg
 - 🍽️ Vegan Bean Burrito Bowl 🥗: Tomato
 - 🍽️ Pasta w/ Olive Oil & Parmesan 🅼: Wheat, Egg, Milk
 
-### Tue, Sep 15
+### Tue, Oct 13
 
 - 🧇 Cinnamon Raisin Bagel w/ Cream Cheese: Wheat, Soy, Milk, Sesame
-- 🧇 Honey Scooters Cereal: Wheat, Soy
-- 🍽️ Pasta w/ Marinara & Mozzarella Cheese: Wheat, Egg, Milk, Tomato
+- 🍽️ Cheese Wrapadilla: Wheat, Milk
+- 🍽️ Vegetarian Picnic Box 🅴: Wheat, Milk
 - 🍽️ Vegan Chickpea Tikka Masala 🥗: Tomato
 
-### Wed, Sep 16
+### Wed, Oct 14
 
-- 🧇 Pancake w/ Syrup: Wheat, Milk, Egg, Soy
+- 🧇 Pancake Bites w/ Syrup: Wheat, Soy, Egg, Milk
 - 🧇 String Cheese w/ Mini Chocolate Chip Muffin: Milk, Wheat, Soy, Egg
-- 🧇 Honey Bunches of Oats Cereal: Wheat
-- 🍽️ Pasta Primavera: Wheat, Soy, Egg, Milk
+- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
+- 🍽️ Pasta w/ Marinara & Mozzarella Cheese: Wheat, Egg, Milk, Tomato
 - 🍽️ MYO Vegan Tacos 🥗: Tomato
-- 🍽️ Five Layer Dip w/ Tortilla Chips 🅼: Milk, Soy
 
-### Thu, Sep 17
+### Thu, Oct 15
 
 - 🧇 Southwest Breakfast Burrito: Egg, Milk, Wheat, Soy
-- 🧇 Blueberry Muffin: Wheat, Soy, Egg, Milk
-- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Cheese Wrapadilla 🅴: Wheat, Milk
+- 🧇 Hard Boiled Egg w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk, Sesame
+- 🧇 Honey Bunches of Oats Cereal: Wheat
+- 🍽️ Bean & Cheese Burrito: Milk, Wheat, Soy
 - 🍽️ Vegan Fried Rice 🥗: Soy, Sesame
-- 🍽️ Pesto Caprece Salad 🅼: Wheat, Egg, Milk, Tomato
 
-### Fri, Sep 18
+### Fri, Oct 16
 
 - 🧇 Scrambled Eggs w/ Biscuit: Wheat, Soy, Egg, Milk, Sesame
-- 🧇 Sunbutter & Jelly Sandwich: Wheat, Soy, Sesame
+- 🧇 SBJ Sammie: Wheat, Soy, Sesame
 - 🍽️ Cheese Pizza: Wheat, Soy, Milk, Tomato
 - 🍽️ Vegan Bean Burrito Bowl 🥗: Tomato
+- 🍽️ Yogurt Berry Parfait w/ Muffin 🅼: Wheat, Egg, Milk, Soy
 
-### Mon, Sep 21
+### Mon, Oct 19
 
 - 🧇 Melted Cheese Bagel: Wheat, Soy, Milk, Sesame
-- 🧇 Peach Yogurt w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk, Sesame
-- 🧇 Honey Scooters Cereal: Wheat, Soy
-- 🍽️ Egg Salad Sandwich 🅴: Wheat, Soy, Egg, Sesame
+- 🧇 Banana Muffin: Wheat, Soy, Egg, Milk
+- 🍽️ Curry Fried Rice 🅴: Wheat, Soy, Egg, Sesame
+- 🍽️ Sbj Sammie 🥗: Wheat, Soy, Sesame
 - 🍽️ Vegan Chickpea Tikka Masala 🥗: Tomato
-- 🍽️ Curry Fried Rice 🅼: Wheat, Soy, Egg, Sesame
 
-### Tue, Sep 22
+### Tue, Oct 20
 
 - 🧇 Bagel w/ Cream Cheese: Wheat, Soy, Milk, Sesame
-- 🧇 Honey Bunches of Oats: Wheat
-- 🍽️ Bean & Cheese Burrito: Milk, Wheat, Soy
+- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
+- 🍽️ Veggie Chow Mein: Wheat, Soy, Egg, Sesame
 - 🍽️ MYO Vegan Tacos 🥗: Tomato
+- 🍽️ Confetti Bean & Rice Salad 🅼: Tomato
 
-### Wed, Sep 23
+### Wed, Oct 21
 
 - 🧇 French Toast Sticks: Wheat, Soy, Egg, Milk
-- 🧇 Banana Muffin: Wheat, Soy, Egg, Milk
-- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Pasta X Plosion!: Wheat, Egg, Milk, Tomato
+- 🧇 Everything Spiced Egg w/ Pretzels: Wheat, Soy, Egg, Sesame
+- 🧇 Honey Bunches of Oats: Wheat
+- 🍽️ Cheesy Veggie Pasta: Wheat, Egg, Milk, Tomato
 - 🍽️ Vegan Pinto Pozole w/ Tortilla Chips 🥗: Tomato
 
-### Thu, Sep 24
+### Thu, Oct 22
 
 - 🧇 Egg & Cheese Burrito: Wheat, Soy, Egg, Milk
 - 🧇 String Cheese w/ Mini Chocolate Chip Muffin: Milk, Wheat, Soy, Egg
 - 🍽️ Black Bean & Veggie Burrito: Milk, Wheat, Tomato
 - 🍽️ Vegan Spanish Beans w/ Cilantro Lime Rice 🥗: Tomato
 
-### Fri, Sep 25
+### Fri, Oct 23
 
 - 🧇 Chocolate Concha: Wheat, Soy, Egg, Milk
 - 🧇 Honey Scooters Cereal: Wheat, Soy
 - 🍽️ Cheese Pizza: Wheat, Soy, Milk, Tomato
 - 🍽️ Vegan Red Beans & Rice 🥗: Tomato
 
-### Mon, Sep 28
+### Mon, Oct 26
 
-- 🧇 Hard Boiled Egg w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk, Sesame
-- 🧇 Honey Bunches of Oats: Wheat
-- 🍽️ Veggieburger: Wheat, Milk, Soy
+- 🧇 String Cheese w/ Mini Chocolate Chip Muffin: Milk, Wheat, Soy, Egg
+- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
+- 🍽️ Pasta w/ Marinara & Mozzarella Cheese: Wheat, Egg, Milk, Tomato
+- 🍽️ Summer Corn & Tomato Pasta Salad: Wheat, Milk, Soy, Tomato
 - 🍽️ Vegan 3 Bean Chili w/ Tortilla Chips 🥗: Tomato
-- 🍽️ Edamame & Rice Salad 🅼: Tomato, Soy
 
-### Tue, Sep 29
+### Tue, Oct 27
 
 - 🧇 Pancake Bites w/ Syrup: Wheat, Soy, Egg, Milk
 - 🧇 Bagel w/ Cream Cheese: Wheat, Soy, Milk, Sesame
-- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
-- 🍽️ Pasta w/ Marinara & Mozzarella Cheese: Wheat, Egg, Milk, Tomato
+- 🧇 Honey Bunches of Oats: Wheat
+- 🍽️ Hummus Rainbow Wrap: Wheat
 - 🍽️ Vegan Fried Rice 🥗: Soy, Sesame
 
-### Wed, Sep 30
+### Wed, Oct 28
 
-- 🧇 String Cheese w/ Mini Chocolate Chip Muffin: Milk, Wheat, Soy, Egg
+- 🧇 Hard Boiled Egg w/ Mini Blueberry Muffin: Wheat, Soy, Egg, Milk, Sesame
 - 🍽️ Pasta w/ Olive Oil & Parmesan: Wheat, Egg, Milk
 - 🍽️ Vegan Bean Burrito Bowl 🥗: Tomato
 
-## October 2026
+### Thu, Oct 29
+
+- 🧇 Cherry Frudel: Wheat, Soy, Egg, Milk
+- 🧇 Strawberry Yogurt w/ Grahams: Wheat
+- 🧇 Honey Scooters Cereal: Wheat, Soy
+- 🧇 Pan de Elote: Wheat, Soy, Egg, Milk
+- 🧇 Cinnamon Toasters Cereal: Wheat, Soy
+- 🍽️ Mac & Cheese: Wheat, Milk
+- 🍽️ Vegan Chickpea Tikka Masala 🥗: Tomato
+
+### Fri, Oct 30
+
+- 🍽️ Cheese Pizza: Wheat, Soy, Milk, Tomato
+- 🍽️ MYO Vegan Tacos 🥗: Tomato
+
+## November 2026
 
 _Not posted yet._

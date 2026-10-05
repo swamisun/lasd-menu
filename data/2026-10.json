@@ -1,0 +1,2506 @@
+{
+  "month": "2026-10",
+  "fetched_at": "2026-10-05T14:56:44-07:00",
+  "sources": [
+    {
+      "url": "https://files.smartsites.parentsquare.com/9655/october_2026_breakfast_menu__allergens_updated.pdf",
+      "meal": "BF",
+      "levels": [
+        "E",
+        "M"
+      ]
+    },
+    {
+      "url": "https://files.smartsites.parentsquare.com/9655/october_2026_elementary_lunch_menu__allergens_updated.pdf",
+      "meal": "L",
+      "levels": [
+        "E"
+      ]
+    },
+    {
+      "url": "https://files.smartsites.parentsquare.com/9655/october_jr_high_lunch_menu__allergens_updated.pdf",
+      "meal": "L",
+      "levels": [
+        "M"
+      ]
+    }
+  ],
+  "days": {
+    "2026-10-01": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Cherry Frudel",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Strawberry Yogurt w/ Grahams",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Sloppy Joe",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Beef",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Kapama w/ Olive Oil & Parmesan Pasta",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Wheat",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Mac & Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Chickpea Tikka Masala",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-02": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Breakfast Burrito",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Pan de Elote",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pepperoni Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Tomato",
+            "Turkey"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheese Pizza",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pesto Chicken Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Caesar Salad w/ Dinner Roll",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "MYO Vegan Tacos",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-05": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Melted Cheese Bagel",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Glazed Donut Holes",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Maui Burger",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Beef",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Greek Chicken w/ Rice Pilaf",
+          "diet": "",
+          "allergens": [
+            "Soy",
+            "Milk",
+            "Chicken"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Fried Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Pinto Pozole w/ Tortilla Chips",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegetarian Picnic Box",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk"
+          ],
+          "levels": [
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Smoked Chicken Wrap",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken Tomato"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-06": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Sausage Egg & Cheese Biscuit",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Chicken",
+            "Turkey",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Banana Chocolate Chunk",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Marshmallow Mateys Cereal",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Pork (gelatin)"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Beef Hot Dog",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Beef",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Fried Rice",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pasta Primavera",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Spanish Beans w/ Cilantro Lime Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Greek Chickpea Pasta Salad",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-07": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Loaded Breakfast Sandwich",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Vanilla Concha",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Teriyaki Chicken w/ Rice & Veggies",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Bagel Kit",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Turkey & Cheese on Dutch Crunch",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Turkey"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Red Beans & Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Buffalo Chicken Hoagie",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-08": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "French Toast Sticks",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Bagel w/ Cream Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Turkey & Cheese Sandwich",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Turkey",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Bagel Kit",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "SBJ Sammie",
+          "diet": "Vegan",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-09": {
+      "note": "No school!",
+      "items": []
+    },
+    "2026-10-12": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Blueberry Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Marshmallow Mateys",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Pork (gelatin)"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Hamburger",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Beef",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Veggie Chow Mein",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Southwest Veggie Taco Salad w/ Cilantro Lime Rice",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Soy",
+            "Tomato",
+            "Egg"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Bean Burrito Bowl",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pasta w/ Olive Oil & Parmesan",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-13": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Breakfast Burrito",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Raisin Bagel w/ Cream Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Sweet & Sour Chicken",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheese Wrapadilla",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegetarian Picnic Box",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Chickpea Tikka Masala",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "BBQ Chicken Sandwich",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Tomato",
+            "Sesame"
+          ],
+          "levels": [
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Caesar Salad w/ Dinner Roll",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-14": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Pancake Bites w/ Syrup",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "String Cheese w/ Mini Chocolate Chip Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Wheat",
+            "Soy",
+            "Egg"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Chow Mein",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pasta w/ Marinara & Mozzarella Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Farmers Market Chicken Salad w/ Roll",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "MYO Vegan Tacos",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pesto Chicken Hoagie",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Milk",
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-15": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Southwest Breakfast Burrito",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Egg",
+            "Milk",
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Hard Boiled Egg w/ Mini Blueberry Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Bunches of Oats Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Drumstick w/ Rice Pilaf",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Chicken"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Beef Chili w/ Tortilla Chips",
+          "diet": "",
+          "allergens": [
+            "Soy",
+            "Milk",
+            "Beef",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Bean & Cheese Burrito",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Fried Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-16": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Scrambled Eggs w/ Biscuit",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "SBJ Sammie",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Marshmallow Mateys Cereal",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Pork (gelatin)"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pepperoni Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Tomato",
+            "Turkey"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheese Pizza",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Hang 10 Hawaiian Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Pork",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Santa Fe Chicken Salad",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Milk",
+            "Tomato",
+            "Soy",
+            "Egg"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Bean Burrito Bowl",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Yogurt Berry Parfait w/ Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Soy"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-19": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Melted Cheese Bagel",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Banana Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheeseburger",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Beef",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Curry Fried Rice",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Sbj Sammie",
+          "diet": "Vegan",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Chickpea Tikka Masala",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Parmesan Hoagie",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Tomato",
+            "Sesame"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-20": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Denver Scramble Burrito",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Bagel w/ Cream Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Beef Hot Dog",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Beef Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Fried Rice",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Veggie Chow Mein",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "MYO Vegan Tacos",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Confetti Bean & Rice Salad",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-21": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "French Toast Sticks",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Everything Spiced Egg w/ Pretzels",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Bunches of Oats",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Burrito",
+          "diet": "",
+          "allergens": [
+            "Milk",
+            "Chicken",
+            "Wheat",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheesy Veggie Pasta",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Turkey & Cheese on Dutch Crunch",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Turkey"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Pinto Pozole w/ Tortilla Chips",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Buffalo Chicken w/ Rice Pilaf",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-22": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Egg & Cheese Burrito",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "String Cheese w/ Mini Chocolate Chip Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Wheat",
+            "Soy",
+            "Egg"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Marshmallow Mateys Cereal",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Pork (gelatin)"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Breaded Chicken Sandwich",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Black Bean & Veggie Burrito",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Wheat",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Turkey & Cheese Sandwich",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Turkey",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Spanish Beans w/ Cilantro Lime Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-23": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Breakfast Chilaquiles",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Chocolate Concha",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pepperoni Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Tomato",
+            "Turkey"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheese Pizza",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "BBQ Chicken Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Santa Fe Chicken Salad",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Milk",
+            "Tomato",
+            "Soy",
+            "Egg"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Red Beans & Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Italian Deli Grinder",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken",
+            "Tomato",
+            "Sesame"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-26": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Sausage Egg & Cheese Biscuit",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Chicken",
+            "Turkey",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "String Cheese w/ Mini Chocolate Chip Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Milk",
+            "Wheat",
+            "Soy",
+            "Egg"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Fajita Bowl",
+          "diet": "",
+          "allergens": [
+            "Soy",
+            "Chicken",
+            "Tomato"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pasta w/ Marinara & Mozzarella Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Summer Corn & Tomato Pasta Salad",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk",
+            "Soy",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan 3 Bean Chili w/ Tortilla Chips",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "BBQ Cheeseburger",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Beef",
+            "Tomato",
+            "Sesame"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-27": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Pancake Bites w/ Syrup",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Bagel w/ Cream Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Bunches of Oats",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pesto Chicken Hoagie",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Milk",
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "General Tso’s Chicken Bowl",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Hummus Rainbow Wrap",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Fried Rice",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Soy",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Coastal Tuna Salad",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Fish",
+            "Shellfish",
+            "Tomato"
+          ],
+          "levels": [
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-28": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Breakfast Bowl w/ Biscuit",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Turkey",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Hard Boiled Egg w/ Mini Blueberry Muffin",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Marshmallow Mateys Cereal",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Pork (gelatin)"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Sesame Orange Chicken w/ Rice",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pasta w/ Olive Oil & Parmesan",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Athenian Chicken Salad w/ Rice Pilaf",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Bean Burrito Bowl",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-29": {
+      "note": null,
+      "items": [
+        {
+          "meal": "BF",
+          "name": "Cherry Frudel",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Strawberry Yogurt w/ Grahams",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Honey Scooters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Breakfast Burrito",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk",
+            "Pork",
+            "Beef"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Pan de Elote",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Egg",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "BF",
+          "name": "Cinnamon Toasters Cereal",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Sloppy Joe",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Beef",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Kapama w/ Olive Oil & Parmesan Pasta",
+          "diet": "",
+          "allergens": [
+            "Chicken",
+            "Wheat",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Mac & Cheese",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Milk"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Vegan Chickpea Tikka Masala",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    },
+    "2026-10-30": {
+      "note": null,
+      "items": [
+        {
+          "meal": "L",
+          "name": "Pepperoni Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Pork",
+            "Beef",
+            "Tomato",
+            "Turkey"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Cheese Pizza",
+          "diet": "Vegetarian",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Pesto Chicken Pizza",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "Chicken Caesar Salad w/ Dinner Roll",
+          "diet": "",
+          "allergens": [
+            "Wheat",
+            "Soy",
+            "Milk",
+            "Chicken",
+            "Sesame"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        },
+        {
+          "meal": "L",
+          "name": "MYO Vegan Tacos",
+          "diet": "Vegan/GF",
+          "allergens": [
+            "Tomato"
+          ],
+          "levels": [
+            "E",
+            "M"
+          ]
+        }
+      ]
+    }
+  }
+}
